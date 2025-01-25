@@ -16,6 +16,7 @@ end
 -- 何かしらの便利な関数
 function M.hello()
 	print("Hello from My Plugin!")
+	print(M.config.option2)
 end
 
 -- コマンドとかkeymapの設定これってuser側で書かせたほうがいいのかもしれない
