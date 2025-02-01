@@ -1,13 +1,12 @@
-
 # install
 
 ```json
 return {
-  "yakipote/my-plugin.nvim",
+  "yakipote/autosave.nvim",
   lazy = false,
   config = function()
-    require("my-plugin").setup({
-      option2 = "lazy.nvim最高！"
+    require("autosave").setup({
+      save_interval = 1000
     })
   end
 }
